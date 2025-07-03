@@ -1,0 +1,59 @@
+# ▶ Python 일반
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+*.bak
+*.tmp
+*.swp
+
+# ▶ 가상환경 (venv, conda 등)
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.conda
+*.env
+
+# ▶ Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ▶ Jupyter 자동 생성 파일
+*.nbconvert.ipynb
+
+# ▶ 프로젝트 설정 (IDE 등)
+.idea/
+.vscode/
+
+# ▶ 데이터 파일, 모델, 출력 결과
+data/
+models/
+outputs/
+results/
+*.h5
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+
+# ▶ requirements 자동 생성
+poetry.lock
+Pipfile.lock
+
+# ▶ MacOS, 시스템 파일
+.DS_Store
+Thumbs.db
+
+# ▶ 기타 캐시 및 빌드
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# ▶ 개인 환경설정
+*.env
+*.token
